@@ -1,0 +1,375 @@
+/*  GENERAL STYLES  */
+
+html {}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #F0F0E8;
+}
+
+.home_body {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../img/banner_phil.jpg');
+    text-align: center;
+    color: white;
+}
+
+a:hover, a:visited, a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+a:hover {
+    color: #ffff00;
+}
+
+h2 {
+    font-size: 46px;
+    color: #2f466c;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+
+/*header area*/
+
+.top-header {
+    background: #2f466c;
+    position: fixed;
+    width: 100%;
+    z-index: 333;
+}
+
+.header-row {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header img.logo, .top-header-home img.logo {
+    float: left;
+    transition: all 0.7s ease 0s;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.top-header .logo, .top-header-home .logo {
+    float: left;
+    transition: all 0.7s ease 0s;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+    margin-top: 5px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+    margin-top: 8px;
+    transition: all 0.7s ease 0s;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+}
+
+.navbar-toggle span {
+    color: #fff;
+}
+
+ul.nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all .7s ease 0s;
+    -webkit-transition: all .7s ease 0s;
+    -moz-transition: all .7s ease 0s;
+    -o-transition: all .7s ease 0s;
+    -ms-transition: all .7s ease 0s;
+    padding: 12px 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #3366cc;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    margin-top: 4px;
+}
+
+body div section:last-child {
+    margin-bottom: 80px;
+}
+
+body div section:first-child {
+    padding-top: 30px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.top-header-home {
+    background: transparent;
+    !important;
+    position: fixed;
+    width: 100%;
+    z-index: 333;
+}
+
+
+/*  Banner area on Home Page  */
+
+.banner h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10%;
+    font-weight: 800;
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.banner img {
+    margin: 50px;
+}
+
+.home_service_list {
+    list-style: none;
+    margin-bottom: 20%;
+}
+
+.home_service_list li p {
+    color: rgba(255, 255, 0, 0.9);
+    font-size: 1.4em;
+    text-shadow: 2px 2px 2px black;
+}
+
+.home_service_list li p:hover {
+    color: rgba(255, 255, 204, 0.9);
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/*  Background Section  */
+
+.background-heading img {
+    margin-bottom: 30px;
+}
+
+.background-heading p {
+    font-size: 16px;
+    color: #7e8287;
+}
+
+.background_image {
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border-radius: 2px;
+}
+
+
+/*  Expertise (service) Styles  */
+
+.services {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.single-service {
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    min-height: 160px;
+    box-shadow: 2px 2px 2px 2px #d9d9d9;
+}
+
+.single-service:hover {
+    transform: translate3d(2px, 2px, 0px);
+    transition: all 0.1s ease 0s;
+    box-shadow: 2px 2px 2px 2px #bfbfbf;
+}
+
+.single-service i.fa {
+    color: #3366cc;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.single-service h3 {
+    font-size: 16px;
+    color: #7e8287;
+    min-height: 35px;
+}
+
+.single-service p {
+    font-size: 11px;
+    color: #7e8287;
+    margin-top: 5px;
+    min-height: 70px;
+}
+
+.services_image {
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border-radius: 2px;
+}
+
+
+/*  Contact Styles  */
+
+#contactForm {
+    margin: auto;
+    padding: 20px;
+}
+
+.contact_section {
+    margin-top: 30px;
+}
+
+.contact_image {
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border-radius: 2px;
+}
+
+.contact-image {
+    padding-top: 60px;
+}
+
+
+/*  PRIOR PROJECTS STYLES  */
+
+.project_box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.5px solid #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    background: rgba(242, 242, 242, 0.2);
+}
+
+.prior_projects h4, .prior_projects a {
+    color: #337ab7;
+    font-weight: bold;
+}
+
+.prior_projects a:hover, .prior_projects a:active {
+    font-weight: bold;
+    color: #3366cc;
+}
+
+
+/*footer area*/
+
+.footer {
+    background: #2f466c;
+}
+
+.footer p {
+    color: #fff;
+    padding: 25px;
+}
+
+#footer {
+    /*position: fixed;*/
+    /*display: none;*/
+}
+
+
+/******************************
+responsive area
+********************************/
+
+
+/* lg */
+
+@media (min-width: 1200px) {}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-service {
+        margin-bottom: 30px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 12px 10px;
+    }
+    .banner h1 {
+        font-size: 55px;
+        letter-spacing: 3px;
+    }
+    .logo {
+        font-size: 1.2em;
+    }
+}
+
+
+/* xs */
+
+@media (max-width: 767px) {
+    .banner h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .logo {
+        font-size: 1.0em;
+    }
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+    .logo {
+        margin-top: 10px;
+    }
+    .banner h1 {
+        font-size: 38px;
+        letter-spacing: 0px;
+    }
+    .navbar-header {
+        margin-top: 5px !important;
+    }
+}
